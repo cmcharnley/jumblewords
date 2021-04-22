@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Mix it Up</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Audiowide&display=swap" rel="stylesheet">
+</head>
+<body>
+    <h1><span>Mix it</span> Up!!!</h1>
+    <h2>Mixed-up music word game <br>against the clock</h2>
+    <div class="container">
+    <div class="image">
+    <img src="img/boombox.png.png">
+    </div>
+    <div class="words">
+        <button id="button">Start Game!</button>
+        <h3>Guess this!</h3>
+        <div class="song"><p id="display-song"></p></div>
+        <h3>Your guess</h3>
+        <form>
+            <input type="text" class="answer" id="userAnswer" autocomplete="off">
+        </form>
+        
+        <div class="scores">
+            <h3>Your score: </h3><p id="your-score"></p>
+        </div>
+    </div>
+    </div>
+    <script src="Word_jumbles.js"></script>
+</body>
+</html>
